@@ -23,6 +23,7 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\Client\AboutController;
 use App\Http\Controllers\Client\AppointmentController;
 use App\Http\Controllers\Client\ArticleController as ClientArticleController;
+use App\Http\Controllers\Client\DonateController;
 use App\Http\Controllers\Client\FaqController;
 use App\Http\Controllers\Client\ProjectController as ProjectClientController;
 use App\Http\Controllers\Client\ServiceController as ServiceClientController;
@@ -92,6 +93,7 @@ Route::get('/service', [ServiceClientController::class, 'index'])->name('service
 Route::get('/service/{slug}', [ServiceClientController::class, 'show'])->name('service-details');
 Route::get('/team', [TeamController::class, 'index'])->name('team');
 Route::get('/faq', [FaqController::class, 'index'])->name('faq');
+Route::get('/donate', [DonateController::class, 'index'])->name('donate');
 Route::get('/appointment', [AppointmentController::class, 'index'])->name('appointment');
 Route::post('/appointment', [AppointmentController::class, 'store'])->name('appointment.store');
 Route::post('/contact-message', [ContactController::class, 'store'])->name('contact.store');

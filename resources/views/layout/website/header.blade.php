@@ -141,7 +141,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-3 col-12">
                         <a href="index.html" class="logo-mid">
-                            <img style="height: 80px;width: 113px;" src="{{ asset('website/images/logo.jpeg')}}" alt="">
+                            <img style="height: 81px;width: 90px;" src="{{ asset('website/images/logo.jpeg')}}" alt="">
                         </a>
                     </div>
                     <div class="col-lg-9 col-12">
@@ -151,7 +151,7 @@
                                     <i class="flaticon-clock"></i>
                                 </div>
                                 <div class="text">
-                                    <h3>Opening Houres</h3>
+                                    <h3>{{ __('website.Opening Hours') }}</h3>
                                     <span>Mon _ Sat: 9.00 to 18.00</span>
                                 </div>
                             </li>
@@ -160,8 +160,8 @@
                                     <i class="fi flaticon-home-address"></i>
                                 </div>
                                 <div class="text">
-                                    <h3>Our Address</h3>
-                                    <span>Bowery St, New York, USA</span>
+                                    <h3>{{ __('website.Our Address') }}</h3>
+                                    <span>الشرقية , العاشر من رمضان</span>
                                 </div>
                             </li>
                             <li>
@@ -169,7 +169,7 @@
                                     <i class="flaticon-phone-1"></i>
                                 </div>
                                 <div class="text">
-                                    <h3>Contact Us</h3>
+                                    <h3>{{ __('website.contact') }}</h3>
                                     <span>(671) 555-0110</span>
                                 </div>
                             </li>
@@ -291,7 +291,7 @@
                                     </div>
                                 </div>
                                 <div class="close-form">
-                                    <a class="theme-btn" href="donate.html">Donate now</a>
+                                    <a class="theme-btn" href="{{route('blogs')}}">@lang("website.Donate now")</a>
                                 </div>
                             </div>
                         </div>

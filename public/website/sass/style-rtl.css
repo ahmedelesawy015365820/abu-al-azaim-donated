@@ -131,7 +131,8 @@ Version:        1.0.0
 /*---------------------------
 	Fonts
 ----------------------------*/
-@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ruwudu:wght@400;500;600;700&display=swap");
 /* 1.1	Theme Reset Style */
 html {
   font-size: 15px;
@@ -168,7 +169,7 @@ h4,
 h5,
 h6 {
   color: #061408;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-weight: 600;
 }
 
@@ -376,7 +377,7 @@ img {
 }
 .section-title span {
   color: #F74F22;
-  font-family: "Edu AU VIC WA NT Hand", system-ui;
+  font-family: "Ruwudu", system-ui;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 10px;
@@ -384,7 +385,7 @@ img {
 }
 .section-title h2 {
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-weight: 600;
   margin-top: 0;
   font-size: 55px;
@@ -405,7 +406,7 @@ img {
 }
 .section-title h2 span {
   color: #F74F22;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-weight: 600;
   font-size: 55px;
   font-weight: 800;
@@ -658,7 +659,7 @@ img {
 }
 .breadcumb-area .breadcumb-wrap h2 {
   color: #F74F22;
-  font-family: "Edu AU VIC WA NT Hand", system-ui;
+  font-family: "Ruwudu", system-ui;
   font-size: 20px;
   font-weight: 600;
 }
@@ -781,9 +782,9 @@ img {
   width: 60px;
   height: 120px;
   margin-right: -60px;
-  margin-top: -60px;
+  margin-top: -62px;
   overflow: hidden;
-  transform-origin: 60px 60px;
+  transform-origin: 0px 61px;
   -webkit-mask-image: -webkit-linear-gradient(top, #000000, rgba(0, 0, 0, 0));
   animation: rotate 1.2s infinite linear;
 }
@@ -1012,7 +1013,7 @@ img {
   margin-bottom: 30px;
 }
 .blog-sidebar .about-widget a {
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 14px;
   color: #061408;
   text-decoration: underline;
@@ -1221,7 +1222,7 @@ img {
 }
 .blog-sidebar .contact-widget span {
   color: #fff;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 18px;
   font-weight: 600;
   line-height: 160%;
@@ -1462,7 +1463,7 @@ img {
 }
 .service-info span {
   color: #FFF;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -1477,7 +1478,7 @@ img {
   background: #F74F22;
   color: #FFF;
   text-align: center;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 32px;
@@ -2947,7 +2948,7 @@ img {
 .header-s2 .topbar .pryment-selector select,
 .header-s3 .topbar .pryment-selector select {
   color: #fff;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 .header-s2 .topbar .pryment-selector::after,
 .header-s3 .topbar .pryment-selector::after {
@@ -2958,7 +2959,7 @@ img {
 .header-s2 .topbar .language-selector,
 .header-s3 .topbar .language-selector {
   color: #fff;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 .header-s2 .topbar .language-selector .custom-options div,
 .header-s3 .topbar .language-selector .custom-options div {
@@ -3085,7 +3086,7 @@ img {
 .header-s3 .wpo-site-header .header-right .close-form .theme-btn,
 .header-s3 .wpo-site-header .header-right .close-form .view-cart-btn {
   text-transform: capitalize;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 16px;
 }
 @media (max-width: 1199px) {
@@ -3521,7 +3522,7 @@ img {
 .static-hero .slide-title span,
 .wpo-hero-slider-s2 .slide-title span {
   color: #F74F22;
-  font-family: "Edu AU VIC WA NT Hand", system-ui;
+  font-family: "Ruwudu", system-ui;
   font-size: 20px;
   font-weight: 600;
 }
@@ -5100,7 +5101,7 @@ img {
 }
 .funfact-section .content h2 {
   color: #F74F22;
-  font-family: "Edu AU VIC WA NT Hand", system-ui;
+  font-family: "Ruwudu", system-ui;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 15px;
@@ -5151,7 +5152,7 @@ img {
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.16px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   padding-right: 15px;
 }
 @media (max-width: 991px) {
@@ -5203,7 +5204,7 @@ img {
   }
 }
 .funfact-section .funfact ul li .count h3 span {
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   color: #F9272B;
   font-size: 46px;
   font-weight: 800;
@@ -5286,7 +5287,7 @@ img {
 }
 .about-section .about-content h2 {
   color: #F74F22;
-  font-family: "Edu AU VIC WA NT Hand", system-ui;
+  font-family: "Ruwudu", system-ui;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 15px;
@@ -5426,7 +5427,7 @@ img {
 .about-section .ceo .text h4 {
   font-size: 14px;
   font-weight: 600;
-  font-family: "Edu AU VIC WA NT Hand", system-ui;
+  font-family: "Ruwudu", system-ui;
   line-height: 20px;
   margin-bottom: 0;
   color: #061408;
@@ -5685,8 +5686,8 @@ img {
 .card-mv .text a {
   color: #061408;
   text-align: center;
-  font-family: "Nunito", sans-serif;
-  font-size: 24px;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
   line-height: 20px;
   font-weight: 700;
   text-transform: capitalize;
@@ -5694,7 +5695,7 @@ img {
 }
 @media (max-width: 767px) {
   .card-mv .text a {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 .card-mv .text i {
@@ -5802,7 +5803,7 @@ img {
   border-radius: 10px;
   background: #fff;
   color: #0F0F2D;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 18px;
   font-weight: 800;
   text-transform: capitalize;
@@ -5888,7 +5889,7 @@ img {
 }
 .service-section .service-left .s-more a {
   color: #0F0F2D;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 29px;
@@ -6101,7 +6102,7 @@ img {
 }
 .causes-card .text h2 a {
   color: #061408;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 22px;
   font-weight: 800;
   text-transform: capitalize;
@@ -6142,7 +6143,7 @@ img {
   left: 30px;
   top: -27px;
   color: #F74F22;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 14px;
   font-weight: 700;
 }
@@ -6178,7 +6179,7 @@ img {
 }
 .causes-card ul li .title {
   color: #000;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 14px;
   font-weight: 700;
   display: block;
@@ -6186,7 +6187,7 @@ img {
 .causes-card ul li span {
   display: block;
   color: #F74F22;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 14px;
   font-weight: 700;
 }
@@ -6236,7 +6237,7 @@ img {
 }
 .cta-section .content span {
   color: #F74F22;
-  font-family: "Edu AU VIC WA NT Hand", system-ui;
+  font-family: "Ruwudu", system-ui;
   font-size: 20px;
   font-weight: 600;
 }
@@ -6393,7 +6394,7 @@ img {
 }
 .project-card .content h2 a {
   color: #061408;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 28px;
   font-weight: 700;
   letter-spacing: -0.84px;
@@ -6643,7 +6644,7 @@ img {
 .process-section .item .icon span {
   color: #FFF;
   text-align: center;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 35px;
@@ -7040,7 +7041,7 @@ img {
 }
 .blog-card .content h3 a {
   color: #18322E;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 22px;
   font-weight: 700;
   line-height: 30px;
@@ -7184,7 +7185,7 @@ img {
 }
 .register-section .content .text span {
   color: #F74F22;
-  font-family: "Edu AU VIC WA NT Hand", system-ui;
+  font-family: "Ruwudu", system-ui;
   font-size: 18px;
   font-weight: 600;
   display: block;
@@ -7371,7 +7372,7 @@ img {
 .about-section-s3 .about-image .text h2,
 .about-section-s4 .about-image .text h2 {
   color: #fff;
-  font-family: "Edu AU VIC WA NT Hand", system-ui;
+  font-family: "Ruwudu", system-ui;
   font-size: 22px;
   font-weight: 500;
   line-height: 32px;
@@ -7424,7 +7425,7 @@ img {
 .about-section-s3 .right-content h2,
 .about-section-s4 .right-content h2 {
   color: #F74F22;
-  font-family: "Edu AU VIC WA NT Hand", system-ui;
+  font-family: "Ruwudu", system-ui;
   font-size: 18px;
   font-weight: 600;
   display: block;
@@ -7550,7 +7551,7 @@ img {
 .about-section-s4 .tablinks {
   color: #222;
   text-align: center;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 15px;
   font-weight: 700;
   letter-spacing: 0.75px;
@@ -7727,7 +7728,7 @@ img {
 .about-section-s3 .author-wrap .contact .text span,
 .about-section-s4 .author-wrap .contact .text span {
   color: #828A8D;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 14px;
   font-weight: 500;
   text-transform: capitalize;
@@ -7777,7 +7778,7 @@ img {
 .about-section-s4 .author-text {
   position: relative;
   color: #222;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 18px;
   font-weight: 600;
   line-height: 31px;
@@ -7944,7 +7945,7 @@ img {
 }
 .service-wrap .item h2 a {
   color: #061408;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 20px;
   font-weight: 800;
   line-height: 30px;
@@ -8262,7 +8263,7 @@ img {
 .become_volunteer .left-content h2,
 .become_volunteer .right-content h2 {
   color: #fff;
-  font-family: "Edu AU VIC WA NT Hand", system-ui;
+  font-family: "Ruwudu", system-ui;
   font-size: 38px;
   font-weight: 600;
   text-transform: capitalize;
@@ -8277,7 +8278,7 @@ img {
 .become_volunteer .left-content a,
 .become_volunteer .right-content a {
   color: #fff;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.8px;
@@ -8387,7 +8388,7 @@ img {
 }
 .service-section-s3 .service-wrap .service-card h2 a {
   color: #061408;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 20px;
   font-weight: 800;
   line-height: 30px;
@@ -8413,7 +8414,7 @@ img {
 }
 .service-section-s3 .service-wrap .service-card a {
   color: #F74F22;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 18px;
   font-weight: 600;
   line-height: 36px;
@@ -8475,7 +8476,7 @@ img {
 }
 .GetQuate-section .left-wrap h2 {
   color: #F74F22;
-  font-family: "Edu AU VIC WA NT Hand", system-ui;
+  font-family: "Ruwudu", system-ui;
   font-size: 18px;
   font-weight: 600;
 }
@@ -8561,7 +8562,7 @@ img {
 }
 .GetQuate-section .left-wrap .icontext li {
   color: #FFF;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 28px;
@@ -8593,7 +8594,7 @@ img {
   margin-left: 25px;
   margin-bottom: 20px;
   color: #fff;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 30px;
@@ -8713,7 +8714,7 @@ img {
   left: 49%;
   top: -27px;
   color: #F74F22;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 14px;
   font-weight: 700;
 }
@@ -8749,13 +8750,13 @@ img {
 }
 .donation-from ul li .title {
   color: #000;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 18px;
   font-weight: 700;
 }
 .donation-from ul li span {
   color: #000;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 18px;
   font-weight: 700;
 }
@@ -8765,7 +8766,7 @@ img {
 }
 .donation-from .donate-amount .amount-btn {
   color: #000;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 18px;
   font-weight: 700;
   border-radius: 30.5px;
@@ -8782,7 +8783,7 @@ img {
 }
 .donation-from .addAmount-value {
   color: #000;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 18px;
   font-weight: 600;
   border-radius: 30.5px;
@@ -8897,7 +8898,7 @@ img {
 }
 .vol-card .text h3 a {
   color: #061408;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 22px;
   font-weight: 700;
   line-height: 30px;
@@ -9127,7 +9128,7 @@ img {
 .testimonial-section-s2 .content-wrap h3 {
   text-transform: capitalize;
   color: #061408;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 48px;
   font-weight: 700;
   line-height: 55px;
@@ -9154,7 +9155,7 @@ img {
 .testimonial-section-s2 .content p {
   margin-bottom: 35px;
   color: #6D6767;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 30px;
   font-weight: 600;
   line-height: 51px;
@@ -9178,7 +9179,7 @@ img {
 }
 .testimonial-section-s2 .content .client-name h4 {
   color: #061408;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 22px;
   font-weight: 700;
   line-height: 30px;
@@ -9420,7 +9421,7 @@ img {
 }
 .cta-section-s2 .content h2 {
   color: #fff;
-  font-family: "Edu AU VIC WA NT Hand", system-ui;
+  font-family: "Ruwudu", system-ui;
   font-size: 18px;
   font-weight: 600;
 }
@@ -9693,7 +9694,7 @@ img {
 }
 .blog-card-s2 .content h3 a {
   color: #061408;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 20px;
   font-weight: 800;
   line-height: 28px;
@@ -9750,7 +9751,7 @@ img {
 }
 .cta-section-s3 .cta-wrap .content h2 {
   color: #F74F22;
-  font-family: "Edu AU VIC WA NT Hand", system-ui;
+  font-family: "Ruwudu", system-ui;
   font-size: 18px;
   font-weight: 600;
 }
@@ -9800,7 +9801,7 @@ img {
 .cta-section-s3 .cta-wrap .content ul li {
   display: inline-block;
   color: #fff;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 30px;
@@ -9928,7 +9929,7 @@ img {
 }
 .features-section .feature-card .content h2 {
   color: #F74F22;
-  font-family: "Edu AU VIC WA NT Hand", system-ui;
+  font-family: "Ruwudu", system-ui;
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 15px;
@@ -10184,7 +10185,7 @@ img {
 }
 .funfact-section-s2 .wraper .item h2 span {
   color: #fff;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 .funfact-section-s2 .wraper .item p {
   font-size: 18px;
@@ -10298,7 +10299,7 @@ img {
 .service-section-s4 .service-card-s2 h2 a,
 .service-section-s5 .service-card-s2 h2 a {
   color: #101212;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   transition: all 0.3s ease-in-out;
 }
 .service-section-s4 .service-card-s2 p,
@@ -10725,7 +10726,7 @@ img {
 }
 .get-quate-section-s2 .buttom-item li .text span {
   color: #fff;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 28.8px;
@@ -10877,7 +10878,7 @@ img {
 }
 .process-section-s3 .content ul li h3 {
   color: #061408;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 22px;
   font-weight: 700;
   line-height: 34px;
@@ -11063,7 +11064,7 @@ img {
 }
 .vol-card-s2 .text h3 a {
   color: #061408;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 22px;
   font-weight: 700;
   line-height: 30px;
@@ -11462,7 +11463,7 @@ img {
 }
 .blog-section-s3 .grid-item:nth-child(1) .post-content h3 a {
   color: #fff;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 33px;
@@ -11585,7 +11586,7 @@ img {
 }
 .blog-section-s3 .grid-item .post-content h3 a {
   color: #061408;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 33px;
@@ -11670,7 +11671,7 @@ img {
 }
 .donate-section .donation-from h2 {
   color: #F74F22;
-  font-family: "Edu AU VIC WA NT Hand", system-ui;
+  font-family: "Ruwudu", system-ui;
   font-size: 20px;
   font-weight: 600;
 }
@@ -11739,7 +11740,7 @@ img {
 }
 .donate-section .donation-from .Support span {
   color: #000;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 22px;
   font-weight: 700;
 }
@@ -12212,7 +12213,7 @@ img {
   transition: all 0.3s ease-in-out;
   width: 100%;
   color: #222;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 20px;
   font-weight: 700;
   background: transparent;
@@ -12304,7 +12305,7 @@ img {
 }
 .project-top-info .section-title h2 {
   color: #F74F22;
-  font-family: "Edu AU VIC WA NT Hand", system-ui;
+  font-family: "Ruwudu", system-ui;
   font-size: 20px;
   font-weight: 600;
 }
@@ -12588,7 +12589,7 @@ img {
 }
 .page-chang .post a {
   color: #061408;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 22px;
   font-weight: 800;
   line-height: 30px;
@@ -12992,7 +12993,7 @@ img {
   margin-bottom: 0;
 }
 .shop-single-section .product-info .nav-tabs {
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   border: 0;
 }
 @media (max-width: 767px) {
@@ -14832,7 +14833,7 @@ img {
   background-color: #f4f4f4;
   transition: background-color 0.3s;
   color: #122F2A;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 16px;
   font-weight: 700;
 }
@@ -15217,7 +15218,7 @@ img {
   line-height: 1.2em;
   font-weight: 800;
   margin: -0.27em 0 0.7em;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 @media (max-width: 991px) {
   .blog-pg-section .post h3 {
@@ -15418,7 +15419,7 @@ img {
   line-height: 1.2em;
   font-weight: 700;
   margin: -0.27em 0 0.7em;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 @media (max-width: 991px) {
   .blog-single-section .post h3 {
@@ -15479,7 +15480,7 @@ img {
   border: 0;
   position: relative;
   color: #16171A;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 43px;
@@ -15626,7 +15627,7 @@ img {
 }
 .blog-single-section .tag-share .tag > span,
 .blog-single-section .tag-share-s2 .tag > span {
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   display: inline-block;
   padding-left: 15px;
   text-transform: capitalize;
@@ -15651,7 +15652,7 @@ img {
   text-transform: uppercase;
   color: #838383;
   text-align: center;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 30px;
@@ -16609,7 +16610,7 @@ img {
 }
 .wpo-hero-slider-s4 .slide-title span {
   color: #F74F22;
-  font-family: "Edu AU VIC WA NT Hand", system-ui;
+  font-family: "Ruwudu", system-ui;
   font-size: 20px;
   font-weight: 600;
 }
@@ -16664,7 +16665,7 @@ img {
   border-radius: 45px;
   background: #F74F22;
   text-transform: capitalize;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.8px;
@@ -16858,7 +16859,7 @@ img {
 }
 .features-section-s2 .feature-card .content h2 {
   color: #222;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 25px;
   font-weight: 800;
   line-height: 29px;
@@ -17144,7 +17145,7 @@ img {
 }
 .event-section-s2 .event-card .text h2 a {
   color: #061408;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 55px;
@@ -17381,7 +17382,7 @@ img {
 }
 .service-section-s6 .service-card h2 a {
   color: #061408;
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 24px;
   font-weight: 800;
   line-height: 30px;
