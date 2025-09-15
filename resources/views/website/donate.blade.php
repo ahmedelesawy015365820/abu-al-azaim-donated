@@ -9,8 +9,8 @@
             <div class="row">
                 <div class="col-12">
                     <div class="breadcumb-wrap">
-                        <h2>trusted non profit</h2>
-                        <h3>Donate Now</h3>
+                        <h2>منظمة غير ربحية موثوقة</h2>
+                        <h3>تبرع الآن</h3>
                     </div>
                 </div>
             </div>
@@ -38,42 +38,42 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="donate-header">
-                        <h2>Make a Donation</h2>
+                        <h2>قم بالتبرع</h2>
                     </div>
                     <div id="Donations" class="tab-pane">
                         <form action="#">
                             <div class="donations-amount">
-                                <h2>Your Donation</h2>
+                                <h2>تبرعك</h2>
                                 <input type="text" class="form-control" name="text" id="text"
-                                       placeholder="Enter Donation Amount">
+                                       placeholder="أدخل مبلغ التبرع">
                             </div>
                             <div class="donations-details">
-                                <h2>Details</h2>
+                                <h2>تفاصيل</h2>
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-12 form-group">
                                         <input type="text" class="form-control" name="name" id="fname"
-                                               placeholder="First Name">
+                                               placeholder="الاسم الأول">
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-12 form-group">
                                         <input type="text" class="form-control" name="name" id="name"
-                                               placeholder="Last Name">
+                                               placeholder="اسم العائلة">
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-12 form-group clearfix">
                                         <input type="email" class="form-control" name="email" id="email"
-                                               placeholder="Email">
+                                               placeholder="بريد إلكتروني">
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-12 form-group">
                                         <input type="text" class="form-control" name="Adress" id="Adress"
-                                               placeholder="Adress">
+                                               placeholder="العنوان">
                                     </div>
                                     <div class="col-lg-12 col-12 form-group">
                                             <textarea class="form-control" name="note" id="note"
-                                                      placeholder="Message"></textarea>
+                                                      placeholder="رسالة"></textarea>
                                     </div>
                                 </div>
                             </div>
                             <div class="doanation-payment">
-                                <h2>Choose Your Payment Method</h2>
+                                <h2>اختر طريقة الدفع الخاصة بك</h2>
                                 <div class="payment-area">
                                     <div class="row">
                                         <div class="col-12">
@@ -83,12 +83,12 @@
                                                         <li class="addToggle">
                                                             <input id="add" type="radio" checked="checked"
                                                                    name="payment" value="30">
-                                                            <label for="add">Payment By Card</label>
+                                                            <label for="add">الدفع بالبطاقة</label>
                                                         </li>
                                                         <li class="removeToggle">
                                                             <input id="remove" type="radio" name="payment"
                                                                    value="30">
-                                                            <label for="remove">Offline Donation</label>
+                                                            <label for="remove">التبرع من الجمعية</label>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -146,7 +146,7 @@
                                 </div>
                             </div>
                             <div class="submit-area">
-                                <button type="submit" class="theme-btn submit-btn">Donate Now</button>
+                                <button type="submit" class="theme-btn submit-btn">تبرع الآن</button>
                             </div>
                         </form>
                     </div>
