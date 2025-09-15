@@ -242,6 +242,19 @@
                                             <li>
                                                 <a class="{{ request()->routeIs('blogs') ? 'active' : '' }}" href="{{route('blogs')}}">@lang("website.Articles")</a>
                                             </li>
+
+                                            <li>
+                                                <a class="{{ request()->routeIs('volunteer') ? 'active' : '' }}" href="{{route('volunteer')}}">@lang("website.volunteer")</a>
+                                            </li>
+                                             <li class="menu-item-has-children" >
+                                            <a href="#">{{ __('website.events') }}</a>
+                                                    <ul class="sub-menu">
+                                                        <li><a class="{{ request()->routeIs('event') ? 'active' : '' }}" href="{{route('event')}}">{{ __('website.event') }}</a>
+                                                        </li>
+                                                        <li><a class="{{ request()->routeIs('event-details') ? 'active' : '' }}" href="{{route('event-details')}}">{{ __('website.event_details') }}</a>
+                                                        </li>
+                                                    </ul>
+                                             </li>
                                         </ul>
                                     </li>
                                 </ul>

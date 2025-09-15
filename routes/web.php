@@ -96,6 +96,9 @@ Route::get('/appointment', [AppointmentController::class, 'index'])->name('appoi
 Route::post('/appointment', [AppointmentController::class, 'store'])->name('appointment.store');
 Route::post('/contact-message', [ContactController::class, 'store'])->name('contact.store');
 
+Route::get('/volunteer', [App\Http\Controllers\Client\VolunteerController::class, 'index'])->name('volunteer');
+Route::get('/event', [App\Http\Controllers\Client\EventController::class, 'index'])->name('event');
+Route::get('/event-details', [App\Http\Controllers\Client\EventController::class, 'details'])->name('event-details');
 
 
 

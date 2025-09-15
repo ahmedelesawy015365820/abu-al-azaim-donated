@@ -193,7 +193,20 @@ return [
     "Cost" => "التكلفة",
     "project_details" => "تفاصيل المشروع",
     "Get Professional Help" => "احصل على مساعدة احترافية",
-    "Contact Us" => "تواصل معنا"
-
+    "Contact Us" => "تواصل معنا",
+    "volunteer" => "تطوع معنا",
+    "Become a Volunteer" => "كن متطوعا معنا",
+    "trusted_non_profit" => "منظمة غير ربحية موثوقة",
+    "become_volunteer" => "كن متطوعا معنا",
+    "upload_cv" => "تحميل سيرتك الذاتية",
+    "event" => "مناسبة",
+    "event_details" => "تفاصيل المناسبة",
+    "food_water_charity" => "جمع تبرعات للطعام والماء",
+    "become_volunteer" => "كن متطوعا معنا",
+    "send_gift_for_children" => "إرسال هدية للأطفال",
+    "help_for_children" => "مساعدة الأطفال",
+    "event_raised_poor" => "مناسبة لجمع التبرعات للفقراء",
+    "a_hand_for_children" => "يد للعناية بالأطفال",
+    "trusted_non_profit" => "منظمة غير ربحية موثوقة",
 ];
 
