@@ -194,7 +194,21 @@ return [
     "Project Information" => "Project Information",
     "Information" => "Information",
     "Get Professional Help" => "Get Professional Help",
-    "Contact Us" => "Contact Us"
+    "Contact Us" => "Contact Us",
+    "volunteer" => "Volunteer",
+    "Become a Volunteer" => "Become a Volunteer",
+    "trusted_non_profit" => "Trusted Non Profit",
+    "become_volunteer" => "Become Volunteer",
+    "upload_cv" => "Upload Your CV",
+    "event" => "Event",
+    "event_details" => "Event Details",
+    "food_water_charity" => "Food & water Charity",
+    "send_gift_for_children" => "Send gift for children",
+    "help_for_children" => "Help for Children",
+    "event_raised_poor" => "Event Raised Poor",
+    "a_hand_for_children" => "A hand for Children",
+    "Join Our Event" => "Join Our Event",
+    "trusted_non_profit" => "Trusted Non Profit",
 
 
 
