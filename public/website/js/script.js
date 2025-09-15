@@ -139,7 +139,8 @@
             autoplayHoverPause: true,
             dots: false,
             nav: true,
-            navText: ['<i class="flaticon-arrow"></i>', '<i class="flaticon-right-arrow"></i>'],
+            rtl: true,
+            navText: ['<i class="flaticon-right-arrow"></i>','<i class="flaticon-arrow"></i>'],
             responsive: {
                 0: {
                     items: 1,
@@ -308,6 +309,7 @@
             dots: false,
             nav: false,
             center: true,
+            rtl: true,
             responsive: {
                 0: {
                     items: 1,
@@ -491,6 +493,7 @@
         speed: 300,
         slidesToShow: 4,
         slidesToScroll: 2,
+        rtl: true,
         responsive: [
             {
                 breakpoint: 1499,
@@ -545,7 +548,6 @@
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
-
         on: {
             progress: function () {
                 var swiper = this;
@@ -554,7 +556,7 @@
                     var innerOffset = swiper.width * interleaveOffset;
                     var innerTranslate = slideProgress * innerOffset;
                     swiper.slides[i].querySelector(".slide-inner").style.transform =
-                        "translate3d(" + innerTranslate + "px, 0, 0)";
+                        "translate3d(" + -innerTranslate + "px, 0, 0)";
                 }
             },
 
@@ -880,6 +882,7 @@
         arrows: false,
         dots: false,
         slidesToShow: 7,
+        rtl: true,
         slidesToScroll: 1,
         responsive: [
             {
@@ -973,6 +976,7 @@
         dots: false,
         slidesToShow: 6,
         slidesToScroll: 1,
+        rtl: true,
         responsive: [
             {
                 breakpoint: 1399,

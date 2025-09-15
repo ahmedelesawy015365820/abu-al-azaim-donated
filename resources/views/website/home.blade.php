@@ -13,21 +13,22 @@
                     <div class="container-fluid">
                         <div class="slide-content">
                             <div data-swiper-parallax="300" class="slide-title">
-                                <span>We can brighten every child's future.</span>
+                                <span>بإمكاننا أن ننير مستقبل كل طفل.</span>
                             </div>
                             <div data-swiper-parallax="400" class="slide-sub-title">
-                                <h2>Give support
-                                    to <span>poverties</span> & <span class="text">Old</span>
-                                    non profit Care</h2>
+                                <h2>
+                                    تقديم الدعم للفقراء <span class="text">ورعاية المسنين</span> غير الربحية
+{{--                                    Give support to <span>poverties</span> & <span class="text">Old</span>non profit Care--}}
+                                </h2>
                             </div>
                             <div data-swiper-parallax="500" class="slide-btns">
-                                <a href="about.html" class="theme-btn">About Us</a>
+                                <a href="{{ route('about') }}" class="theme-btn">{{ __('website.about') }}</a>
                                 <div class="call">
                                     <div class="icon">
                                         <i class="flaticon-phone"></i>
                                     </div>
                                     <div class="text">
-                                        <h3>Call Us Now</h3>
+                                        <h3>{{ __("website.Call Us Now") }}</h3>
                                         <span>+025 757 576 560</span>
                                     </div>
                                 </div>
@@ -59,21 +60,22 @@
                     <div class="container-fluid">
                         <div class="slide-content">
                             <div data-swiper-parallax="300" class="slide-title">
-                                <span>We are always open for children</span>
+                                <span>بإمكاننا أن ننير مستقبل كل طفل.</span>
                             </div>
                             <div data-swiper-parallax="400" class="slide-sub-title">
-                                <h2>Give support
-                                    to <span>poverties</span> & <span class="text">Old</span>
-                                    non profit Care</h2>
+                                <h2>
+                                    تقديم الدعم للفقراء <span class="text">ورعاية المسنين</span> غير الربحية
+                                    {{--                                    Give support to <span>poverties</span> & <span class="text">Old</span>non profit Care--}}
+                                </h2>
                             </div>
                             <div data-swiper-parallax="500" class="slide-btns">
-                                <a href="about.html" class="theme-btn">About Us</a>
+                                <a href="{{ route('about') }}" class="theme-btn">{{ __('website.about') }}</a>
                                 <div class="call">
                                     <div class="icon">
                                         <i class="flaticon-phone"></i>
                                     </div>
                                     <div class="text">
-                                        <h3>Call Us Now</h3>
+                                        <h3>{{ __("website.Call Us Now") }}</h3>
                                         <span>+025 757 576 560</span>
                                     </div>
                                 </div>
@@ -163,10 +165,12 @@
         <div class="row align-items-center">
             <div class="col-lg-6 col-12 wow fadeInLeft" data-wow-delay="0.1s">
                 <div class="content">
-                    <h2>Hope, Support, and Love for All</h2>
-                    <h3>We work together
-                        & never <span>give</span> up</h3>
-                    <p>We work together to make a lasting difference, helping people. With kindness and hard work, we bring hope and make positive changes for those in need.</p>
+                    <h2>الأمل والدعم والحب للجميع</h2>
+                    <h3>
+                        نحن نعمل معًا ولا <span>نستسلم أبدًا</span>
+                    </h3>
+{{--                    <h3>We work together & never <span>give</span> up</h3>--}}
+                    <p>نعمل معًا لإحداث تغيير إيجابي دائم، ومساعدة الناس. باللطف والعمل الجاد، نزرع الأمل ونُحدث تغييرات إيجابية في حياة المحتاجين.</p>
                     <a href="tel:+4733378901">
                         <i class="flaticon-phone-call"></i>
                         <span>(415) 555-98 76 44</span>
@@ -180,25 +184,25 @@
                             <div class="count">
                                 <h3><span class="odometer" data-count="500">00</span>+</h3>
                             </div>
-                            <span>Cities we have connected</span>
+                            <span>المدن التي قمنا بربطها</span>
                         </li>
                         <li>
                             <div class="count">
                                 <h3><span class="odometer" data-count="1.2">00</span>m</h3>
                             </div>
-                            <span>Raise funds every month</span>
+                            <span>جمع الأموال كل شهر</span>
                         </li>
                         <li>
                             <div class="count">
                                 <h3><span class="odometer" data-count="100">00 </span>+</h3>
                             </div>
-                            <span>We have monthly donor</span>
+                            <span>لدينا متبرع شهري</span>
                         </li>
                         <li>
                             <div class="count">
                                 <h3><span class="odometer" data-count="95">00</span>%</h3>
                             </div>
-                            <span>Successful campains</span>
+                            <span>الحملات الناجحة</span>
                         </li>
 
                     </ul>
@@ -232,10 +236,10 @@
             </div>
             <div class="col-lg-6 col-12 wow fadeInRight" data-wow-delay="0.1s">
                 <div class="about-content">
-                    <h2>Building Brighter Futures Through Kindness.</h2>
-                    <h3>Helping each other can
-                        make <span>world</span> better</h3>
-                    <p>Helping each other creates a stronger, kinder world. We build trust, spread compassion, and inspire others to do the same. Together, we can overcome challenges and make lasting positive changes.</p>
+                    <h2>بناء مستقبل أكثر إشراقا من خلال اللطف.</h2>
+                    <h3>إن مساعدة بعضنا البعض يمكن أن تجعل <span>العالم</span> أفضل</h3>
+{{--                    <h3>Helping each other can make <span>world</span> better</h3>--}}
+                    <p>مساعدة بعضنا البعض تُنشئ عالمًا أقوى وألطف. نبني الثقة، وننشر التعاطف، ونُلهم الآخرين لفعل الشيء نفسه. معًا، نستطيع التغلب على التحديات وإحداث تغييرات إيجابية دائمة.</p>
 
                     <div class="inner-content">
                         <div class="inner-item">
@@ -243,8 +247,8 @@
                                 <i class="flaticon-charity"></i>
                             </div>
                             <div class="content">
-                                <h4>Trusted organization</h4>
-                                <span>AidUs is a trusted and reliable organization dedicated to making real, positive change.</span>
+                                <h4>منظمة موثوقة</h4>
+                                <span>ابو العزايم هي منظمة موثوقة ومكرسة لإحداث تغيير إيجابي حقيقي.</span>
                             </div>
                         </div>
                         <div class="inner-item">
@@ -252,27 +256,24 @@
                                 <i class="flaticon-medal"></i>
                             </div>
                             <div class="content">
-                                <h4>Awarded services</h4>
-                                <span>We are known for its awarded services, recognized for impactful solutions.</span>
+                                <h4>الخدمات الممنوحة</h4>
+                                <span>نحن معروفون بخدماتنا الحائزة على جوائز، والمعروفة بحلولها المؤثرة.</span>
                             </div>
                         </div>
                     </div>
                     <ul>
-                        <li><i class="flaticon-check"></i>We help companies develop powerful corporate social 
-                            <a href="#">Responsibility</a>
-                        </li>
-                        <li><i class="flaticon-check"></i>Helped fund 3,265 Project powerful corporate poor.
-                        </li>
+                        <li><i class="flaticon-check"></i>نساعد الشركات على تطوير مبادرات اجتماعية قوية.</li>
+                        <li><i class="flaticon-check"></i>ساعد في تمويل 3265 مشروعًا للشركات القوية الفقيرة.</li>
                     </ul>
                     <div class="about-btn">
-                        <a href="about.html" class="theme-btn">About Us</a>
+                        <a href="{{ route('about') }}" class="theme-btn">{{ __('website.about') }}</a>
                         <div class="ceo">
                             <div class="image">
                                 <img src="{{ asset('website/images/about/ceo.jpg') }}" alt="">
                             </div>
                             <div class="text">
-                                <h4>Moses Fahey</h4>
-                                <span>Ceo & Founder</span>
+                                <h4>ahmed elesawy</h4>
+                                <span>الرئيس التنفيذي والمؤسس</span>
                             </div>
                         </div>
                     </div>
@@ -320,7 +321,7 @@
                         </a>
                     </div>
                     <div class="text">
-                        <h2><a href="event-single.html">Food & water Charity.</a></h2>
+                        <h2><a href="event-single.html">جمعية خيرية للغذاء والماء.</a></h2>
                         <i class="flaticon-tap"></i>
                     </div>
                 </div>
@@ -340,7 +341,7 @@
                         </a>
                     </div>
                     <div class="text">
-                        <h2><a href="event-single.html">Become a volunteer</a></h2>
+                        <h2><a href="event-single.html">كن متطوعًا</a></h2>
                         <i class="flaticon-handshake"></i>
                     </div>
                 </div>
@@ -360,7 +361,7 @@
                         </a>
                     </div>
                     <div class="text">
-                        <h2><a href="event-single.html">Send gift for children</a></h2>
+                        <h2><a href="event-single.html">أرسل هدية للأطفال</a></h2>
                         <i class="flaticon-gift"></i>
                     </div>
                 </div>
@@ -376,14 +377,14 @@
         <div class="row align-items-center">
             <div class="col-lg-8 col-12">
                 <div class="section-title">
-                    <span>Together, We Can Change Lives Forever.</span>
-                    <h2>our non-profit services
-                        you must love</h2>
+                    <span>معًا، يمكننا تغيير حياة الناس إلى الأبد.</span>
+                    <h2>خدماتنا غير الربحية
+                        يجب أن تحبها</h2>
                 </div>
             </div>
             <div class="col-lg-4 col-12">
                 <div class="all-Service-btn">
-                    <a href="service.html" class="theme-btn">All Services</a>
+                    <a href="{{ route('service') }}" class="theme-btn">{{ __('website.All Services') }}</a>
                 </div>
             </div>
         </div>
@@ -393,29 +394,24 @@
                     <div class="service-left">
                         <ul>
                             <li>
-                                <a href="service-single.html"><i class="flaticon-fund"></i>Fund Raised &
-                                    Donation</a>
+                                <a href="{{ route('service') }}"><i class="flaticon-fund"></i>جمع التبرعات والتبرع</a>
                             </li>
                             <li>
-                                <a href="service-single.html" class="active"><i
-                                        class="flaticon-first-aid-kit"></i>Medical
-                                    Treatment Help</a>
+                                <a href="{{ route('service') }}" class="active"><i
+                                        class="flaticon-first-aid-kit"></i>مساعدة العلاج الطبي</a>
                             </li>
                             <li>
-                                <a href="service-single.html"><i class="flaticon-charity"></i>development
-                                    programs</a>
+                                <a href="{{ route('service') }}"><i class="flaticon-charity"></i>برامج التنمية</a>
                             </li>
                             <li>
-                                <a href="service-single.html"><i class="flaticon-cardiogram"></i>Child medical
-                                    research</a>
+                                <a href="{{ route('service') }}"><i class="flaticon-cardiogram"></i>البحث الطبي للأطفال</a>
                             </li>
                             <li>
-                                <a href="service-single.html"><i class="flaticon-gift-box"></i>Corporate Gifts
-                                    donate</a>
+                                <a href="{{ route('service') }}"><i class="flaticon-gift-box"></i>التبرع بالهدايا للشركات</a>
                             </li>
                         </ul>
                         <div class="s-more">
-                            <a href="service.html">More Services</a>
+                            <a href="{{ route('service') }}">مزيد من الخدمات</a>
                         </div>
                         <div class="shape">
                             <svg width="58" height="59" viewBox="0 0 58 59" fill="none">
@@ -462,9 +458,9 @@
         <div class="row">
             <div class="col-lg-6 col-12">
                 <div class="section-title">
-                    <span>Charity makes no decrease in property.</span>
-                    <h2>Helping each other can
-                        make <span>world</span> better</h2>
+                    <span>الصدقة لا تنقص من المال.</span>
+                    <h2>إن مساعدة بعضنا البعض يمكن أن تجعل <span>العالم</span> أفضل</h2>
+{{--                    <h2>Helping each other can make <span>world</span> better</h2>--}}
                 </div>
             </div>
         </div>
@@ -472,12 +468,12 @@
     <div class="causes-slider owl-carousel">
         <div class="causes-card">
             <div class="image">
-                <span>Health</span>
+                <span>الصحة</span>
                 <img src="{{ asset('website/images/causes/1.jpg') }}" alt="">
             </div>
             <div class="text">
-                <h2><a href="causes-single.html">Bringing Clean Water to Rural Communities</a></h2>
-                <p>Our initiative provides clean water to rural communities, improving health</p>
+                <h2><a href="causes-single.html">توفير المياه النظيفة للمجتمعات الريفية</a></h2>
+                <p>مبادرتنا توفر المياه النظيفة للمجتمعات الريفية، مما يحسن الصحة</p>
             </div>
             <div class="progress-wrap">
                 <div class="progress-item">
@@ -488,143 +484,15 @@
                 </div>
                 <ul>
                     <li>
-                        <span class="title">Goal:</span>
+                        <span class="title">هدف:</span>
                         <span>$20.000</span>
                     </li>
                     <li>
-                        <span class="title">Raised:</span>
+                        <span class="title">رفعت:</span>
                         <span>$20.000</span>
                     </li>
                     <li>
-                        <span class="title">Goal:</span>
-                        <span>$20.000</span>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="causes-card">
-            <div class="image">
-                <span>Health</span>
-                <img src="{{ asset('website/images/causes/3.jpg') }}" alt="">
-            </div>
-            <div class="text">
-                <h2><a href="causes-single.html">Lifeskills for Children in South Africa</a></h2>
-                <p>Teaching life skills to children in Africa empowers them for a brighter.</p>
-            </div>
-            <div class="progress-wrap">
-                <div class="progress-item">
-                    <div class="progress">
-                        <div class="bar" style="width: 90%;"></div>
-                    </div>
-                    <span class="cssProgress-label">90%</span>
-                </div>
-                <ul>
-                    <li>
-                        <span class="title">Goal:</span>
-                        <span>$20.000</span>
-                    </li>
-                    <li>
-                        <span class="title">Raised:</span>
-                        <span>$20.000</span>
-                    </li>
-                    <li>
-                        <span class="title">Goal:</span>
-                        <span>$20.000</span>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="causes-card">
-            <div class="image">
-                <span>Health</span>
-                <img src="{{ asset('website/images/causes/2.jpg') }}" alt="">
-            </div>
-            <div class="text">
-                <h2><a href="causes-single.html">Providing Healthy Food for the children</a></h2>
-                <p>We provide healthy food for children, ensuring they grow strong.</p>
-            </div>
-            <div class="progress-wrap">
-                <div class="progress-item">
-                    <div class="progress">
-                        <div class="bar" style="width: 90%;"></div>
-                    </div>
-                    <span class="cssProgress-label">90%</span>
-                </div>
-                <ul>
-                    <li>
-                        <span class="title">Goal:</span>
-                        <span>$20.000</span>
-                    </li>
-                    <li>
-                        <span class="title">Raised:</span>
-                        <span>$20.000</span>
-                    </li>
-                    <li>
-                        <span class="title">Goal:</span>
-                        <span>$20.000</span>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="causes-card">
-            <div class="image">
-                <span>Health</span>
-                <img src="{{ asset('website/images/causes/3.jpg') }}" alt="">
-            </div>
-            <div class="text">
-                <h2><a href="causes-single.html">Improving Access to Medical Care in Remote Areas</a></h2>
-                <p>Bringing healthcare closer to those in need, we reduce disparities.</p>
-            </div>
-            <div class="progress-wrap">
-                <div class="progress-item">
-                    <div class="progress">
-                        <div class="bar" style="width: 90%;"></div>
-                    </div>
-                    <span class="cssProgress-label">90%</span>
-                </div>
-                <ul>
-                    <li>
-                        <span class="title">Goal:</span>
-                        <span>$20.000</span>
-                    </li>
-                    <li>
-                        <span class="title">Raised:</span>
-                        <span>$20.000</span>
-                    </li>
-                    <li>
-                        <span class="title">Goal:</span>
-                        <span>$20.000</span>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="causes-card">
-            <div class="image">
-                <span>Health</span>
-                <img src="{{ asset('website/images/causes/4.jpg') }}" alt="">
-            </div>
-            <div class="text">
-                <h2><a href="causes-single.html">Help Children Rise out of Poverty</a></h2>
-                <p>We help children rise out of poverty by providing education and support.</p>
-            </div>
-            <div class="progress-wrap">
-                <div class="progress-item">
-                    <div class="progress">
-                        <div class="bar" style="width: 90%;"></div>
-                    </div>
-                    <span class="cssProgress-label">90%</span>
-                </div>
-                <ul>
-                    <li>
-                        <span class="title">Goal:</span>
-                        <span>$20.000</span>
-                    </li>
-                    <li>
-                        <span class="title">Raised:</span>
-                        <span>$20.000</span>
-                    </li>
-                    <li>
-                        <span class="title">Goal:</span>
+                        <span class="title">هدف:</span>
                         <span>$20.000</span>
                     </li>
                 </ul>
@@ -644,10 +512,9 @@
 <section class="cta-section">
     <div class="container">
         <div class="content">
-            <span>Compassion in Action: Join Us Today</span>
-            <h3>children need your help
-                by donating today</h3>
-            <a href="causes-single.html" class="theme-btn">become voluteer</a>
+            <span>التعاطف في العمل: انضم إلينا اليوم</span>
+            <h3>الأطفال بحاجة لمساعدتكم. تبرعوا اليوم</h3>
+            <a href="causes-single.html" class="theme-btn">أصبح متطوعًا</a>
         </div>
     </div>
     <div class="shape">
@@ -662,128 +529,6 @@
 </section>
 <!-- end cta -->
 
-<!-- start project -->
-<section class="project-section section-padding">
-    <div class="container">
-        <div class="section-title">
-            <span>We are always open for children</span>
-            <h2>our case study about helping people</h2>
-        </div>
-    </div>
-    <div class="project-slider owl-carousel">
-        <div class="project-card">
-            <img src="{{ asset('website/images/project/1.jpg') }}" alt="">
-            <div class="content">
-                <h2><a href="project-single.html">Shelter for the Homeless</a></h2>
-                <span>Child & old care</span>
-                <div class="icon"><a href="project-single.html"><i class="flaticon-arrow-up"></i></a></div>
-            </div>
-        </div>
-        <div class="project-card">
-            <img src="{{ asset('website/images/project/2.jpg') }}" alt="">
-            <div class="content">
-                <h2><a href="project-single.html">Empowering Through Food</a></h2>
-                <span>Child & old care</span>
-                <div class="icon"><a href="project-single.html"><i class="flaticon-arrow-up"></i></a></div>
-            </div>
-        </div>
-        <div class="project-card">
-            <img src="{{ asset('website/images/project/3.jpg') }}" alt="">
-            <div class="content">
-                <h2><a href="project-single.html">old people & Child trouble</a></h2>
-                <span>Child & old care</span>
-                <div class="icon"><a href="project-single.html"><i class="flaticon-arrow-up"></i></a></div>
-            </div>
-        </div>
-        <div class="project-card">
-            <img src="{{ asset('website/images/project/2.jpg') }}" alt="">
-            <div class="content">
-                <h2><a href="project-single.html">Clean Water to Rural</a></h2>
-                <span>Child & old care</span>
-                <div class="icon"><a href="project-single.html"><i class="flaticon-arrow-up"></i></a></div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- end project -->
-
-<!-- start testimonial -->
-<section class="testimonial-section">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-6 col-12">
-                <div class="section-title">
-                    <span>Together, We Can Change Lives Forever</span>
-                    <h2>Helping each other can
-                        make <span>world</span> better</h2>
-                </div>
-            </div>
-        </div>
-        <div class="testimonial-wrap">
-            <div class="testimonial-slider owl-carousel">
-                <div class="testimonial-card">
-                    <ul>
-                        <li><i class="flaticon-star"></i></li>
-                        <li><i class="flaticon-star"></i></li>
-                        <li><i class="flaticon-star"></i></li>
-                        <li><i class="flaticon-star"></i></li>
-                        <li><i class="flaticon-star"></i></li>
-                    </ul>
-                    <p>AidUs has been a beacon of hope for our community. Their commitment to providing essential resources and support has transformed lives and created opportunities for many. With their dedicated team.</p>
-                    <div class="autr-name">
-                        <div class="image">
-                            <img src="{{ asset('website/images/testimonial/1.jpg') }}" alt="">
-                        </div>
-                        <div class="text">
-                            <h3>Michel Jhonson</h3>
-                            <span>Donar</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-card">
-                    <ul>
-                        <li><i class="flaticon-star"></i></li>
-                        <li><i class="flaticon-star"></i></li>
-                        <li><i class="flaticon-star"></i></li>
-                        <li><i class="flaticon-star"></i></li>
-                        <li><i class="flaticon-star"></i></li>
-                    </ul>
-                    <p>AidUs has made a big difference in our lives. They provide important help and give us the tools to build a better future. The kindness of their team inspires us every day. We are very thankful for all they do</p>
-                    <div class="autr-name">
-                        <div class="image">
-                            <img src="{{ asset('website/images/testimonial/2.jpg') }}" alt="">
-                        </div>
-                        <div class="text">
-                            <h3>Tommy Kraft</h3>
-                            <span>Customer</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-card">
-                    <ul>
-                        <li><i class="flaticon-star"></i></li>
-                        <li><i class="flaticon-star"></i></li>
-                        <li><i class="flaticon-star"></i></li>
-                        <li><i class="flaticon-star"></i></li>
-                        <li><i class="flaticon-star"></i></li>
-                    </ul>
-                    <p>AidUs has been a beacon of hope for our community. Their commitment to providing essential resources and support has transformed lives and created opportunities for many. With their dedicated team.</p>
-                    <div class="autr-name">
-                        <div class="image">
-                            <img src="{{ asset('website/images/testimonial/3.jpg') }}" alt="">
-                        </div>
-                        <div class="text">
-                            <h3>Curtis Fahey</h3>
-                            <span>Ceo AidUs</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- end testimonial -->
-
 <!-- start process -->
 <section class="process-section">
     <div class="container">
@@ -793,7 +538,7 @@
                     <i class="flaticon-order"></i>
                     <span>01</span>
                 </div>
-                <h2>Identify needs</h2>
+                <h2>تحديد الاحتياجات</h2>
                 <div class="shape">
                     <img src="{{ asset('website/images/process-arrow-shape.svg') }}" alt="">
                 </div>
@@ -803,7 +548,7 @@
                     <i class="flaticon-shield"></i>
                     <span>02</span>
                 </div>
-                <h2>Collect Money</h2>
+                <h2>جمع المال</h2>
                 <div class="shape">
                     <img src="{{ asset('website/images/process-arrow-shape.svg') }}" alt="">
                 </div>
@@ -813,7 +558,7 @@
                     <i class="flaticon-return-box"></i>
                     <span>03</span>
                 </div>
-                <h2>Engage Volunteers</h2>
+                <h2>إشراك المتطوعين</h2>
                 <div class="shape">
                     <img src="{{ asset('website/images/process-arrow-shape.svg') }}" alt="">
                 </div>
@@ -823,7 +568,7 @@
                     <i class="flaticon-delivery-truck"></i>
                     <span>04</span>
                 </div>
-                <h2>Distribute Goods</h2>
+                <h2>توزيع البضائع</h2>
                 <div class="shape">
                     <img src="{{ asset('website/images/process-arrow-shape.svg') }}" alt="">
                 </div>
@@ -849,91 +594,14 @@
 </section>
 <!-- end process -->
 
-<!-- start instagam -->
-<section class="instagam-section section-padding pb-0">
-    <div class="shape">
-        <img src="{{ asset('website/images/instagam/shape.png') }}" alt="">
-        <div class="shape-2">
-            <img src="{{ asset('website/images/instagam/shape-2.svg') }}" alt="">
-        </div>
-    </div>
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12">
-                <div class="section-title">
-                    <span>We are always open for children</span>
-                    <h2>Recent Instagram Post</h2>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="gallery-main-wrap">
-        <div class="sortable-gallery">
-            <div class="grid wow fadeInUp" data-wow-delay="0.2s">
-                <div class="img-holder">
-                    <a href="{{ asset('website/images/instagam/1.jpg') }}" class="fancybox" data-fancybox-group="gall-1">
-                        <img src="{{ asset('website/images/instagam/1.jpg') }}" alt class="img img-responsive">
-                        <div class="hover-content">
-                            <i class="flaticon-camera"></i>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="grid wow fadeInUp" data-wow-delay="0.0s">
-                <div class="img-holder">
-                    <a href="{{ asset('website/images/instagam/2.jpg') }}" class="fancybox" data-fancybox-group="gall-1">
-                        <img src="{{ asset('website/images/instagam/2.jpg') }}" alt class="img img-responsive">
-                        <div class="hover-content">
-                            <i class="flaticon-camera"></i>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="grid wow fadeInUp" data-wow-delay="0.2s">
-                <div class="img-holder">
-                    <a href="{{ asset('website/images/instagam/3.jpg') }}" class="fancybox" data-fancybox-group="gall-1">
-                        <img src="{{ asset('website/images/instagam/3.jpg') }}" alt class="img img-responsive">
-                        <div class="hover-content">
-                            <i class="flaticon-camera"></i>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="grid wow fadeInUp" data-wow-delay="0.0s">
-                <div class="img-holder">
-                    <a href="{{ asset('website/images/instagam/4.jpg') }}" class="fancybox" data-fancybox-group="gall-1">
-                        <img src="{{ asset('website/images/instagam/4.jpg') }}" alt class="img img-responsive">
-                        <div class="hover-content">
-                            <i class="flaticon-camera"></i>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="grid wow fadeInUp" data-wow-delay="0.2s">
-                <div class="img-holder">
-                    <a href="{{ asset('website/images/instagam/5.jpg') }}" class="fancybox" data-fancybox-group="gall-1">
-                        <img src="{{ asset('website/images/instagam/5.jpg') }}" alt class="img img-responsive">
-                        <div class="hover-content">
-                            <i class="flaticon-camera"></i>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</section>
-<!-- end instagam -->
-
 <!-- start blog -->
 <section class="blog-section section-padding">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6 col-12">
                 <div class="section-title">
-                    <span>Hope, Support, and Love for All.</span>
-                    <h2>our latest article news
-                        & blogs you need</h2>
+                    <span>الأمل والدعم والحب للجميع.</span>
+                    <h2>أحدث مقالاتنا وأخبارنا والمدونات التي تحتاجها</h2>
                 </div>
             </div>
         </div>
@@ -1012,9 +680,9 @@
             </div>
         </div>
     </div>
-    <div class="shape">
-        <img src="{{ asset('website/images/blog/bg-shape.png') }}" alt="">
-    </div>
+{{--    <div class="shape">--}}
+{{--        <img src="{{ asset('website/images/blog/bg-shape.png') }}" alt="">--}}
+{{--    </div>--}}
 </section>
 <!-- end blog -->
 
