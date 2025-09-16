@@ -37,12 +37,20 @@ class ArticleController extends Controller
 
     public function blogDetails($slug)
     {
-        $article = Article::where('slug_ar',$slug)->orWhere('slug_en',$slug)->firstOrFail();
-        $setting = Setting::first();
-        $services = Service::with('icon','image')->whereStatus(1)->orderBy('sort','asc')->get();
-        $categories = ArticleCategory::get();
-        $latestArticles = Article::where("id",'!=',$article->id)->latest()->limit(3)->get();
-        return view('website.article-details', compact('article', 'setting','categories','latestArticles','services'));
+        // $article = Article::where('slug_ar',$slug)->orWhere('slug_en',$slug)->firstOrFail();
+        // $setting = Setting::first();
+        // $services = Service::with('icon','image')->whereStatus(1)->orderBy('sort','asc')->get();
+        // $categories = ArticleCategory::get();
+        // $latestArticles = Article::where("id",'!=',$article->id)->latest()->limit(3)->get();
+        return view('website.article-details');
+    }
+    public function portfolioIndex()
+    {
+        return view('website.portfolio');
+    }
+    public function portfolioDetails($slug)
+    {
+        return view('website.portfolio-details');
     }
 
     public function submitQuiry(){
