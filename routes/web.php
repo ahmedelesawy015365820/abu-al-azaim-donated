@@ -85,6 +85,8 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/blogs', [ClientArticleController::class, 'index'])->name('blogs');
 Route::post('/blogs/submit-quiry', [ClientArticleController::class, 'submitQuiry'])->name('blog-submit-quiry');
 Route::get('/blogs/blog-details/{slug}', [ClientArticleController::class, 'blogDetails'])->name('blog-details');
+Route::get('/portfolio', [ClientArticleController::class, 'portfolioIndex'])->name('portfolio');
+Route::get('/portfolio/portfolio-details/{slug}', [ClientArticleController::class, 'portfolioDetails'])->name('portfolio-details');
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 Route::get('/about', [AboutController::class, 'index'])->name('about');
 Route::get('/project', [ProjectClientController::class, 'index'])->name('project');

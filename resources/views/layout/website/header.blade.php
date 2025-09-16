@@ -225,8 +225,8 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="{{ request()->routeIs('service') ? 'active' : '' }}" href="{{ route('service') }}">
-                                            {{ __('website.events') }}
+                                        <a class="{{ request()->routeIs('portfolio') ? 'active' : '' }}" href="{{ route('portfolio') }}">
+                                            التبرعات السابقة
                                         </a>
                                     </li>
                                     <li>
@@ -239,9 +239,14 @@
                                             {{ __('website.More') }}
                                         </a>
                                         <ul class="sub-menu">
+                                         
                                             <li>
                                                 <a class="{{ request()->routeIs('blogs') ? 'active' : '' }}" href="{{route('blogs')}}">@lang("website.Articles")</a>
                                             </li>
+                                            <li>
+                                                <a class="{{ request()->routeIs('blog-details') ? 'active' : '' }}" href="{{route('blog-details','test')}}">تفاصيل المقال</a>
+                                            </li>
+                                            
 
                                             <li>
                                                 <a class="{{ request()->routeIs('volunteer') ? 'active' : '' }}" href="{{route('volunteer')}}">@lang("website.volunteer")</a>
@@ -276,7 +281,7 @@
                                                 </div>
                                                 <div class="mini-cart-item-des">
                                                     <a href="shop.html">glass of juice</a>
-                                                    <span class="mini-cart-item-price">$20.15 x 1</span>
+                                                    <span class="mini-cart-item-price"> 20.15 x 1</span>
                                                     <span class="mini-cart-item-quantity"><a href="#"><i
                                                                     class="ti-close"></i></a></span>
                                                 </div>
@@ -288,14 +293,14 @@
                                                 </div>
                                                 <div class="mini-cart-item-des">
                                                     <a href="shop.html">Water filters</a>
-                                                    <span class="mini-cart-item-price">$13.25 x 2</span>
+                                                    <span class="mini-cart-item-price"> 13.25 x 2</span>
                                                     <span class="mini-cart-item-quantity"><a href="#"><i
                                                                     class="ti-close"></i></a></span>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="mini-cart-action clearfix">
-                                            <span class="mini-checkout-price">Subtotal: <span>$215.14</span></span>
+                                            <span class="mini-checkout-price">Subtotal: <span> 215.14</span></span>
                                             <div class="mini-btn">
                                                 <a href="checkout.html" class="view-cart-btn s1">Checkout</a>
                                                 <a href="cart.html" class="view-cart-btn">View Cart</a>
